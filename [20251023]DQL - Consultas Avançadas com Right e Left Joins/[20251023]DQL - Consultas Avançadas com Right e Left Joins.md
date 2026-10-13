@@ -1,4 +1,4 @@
-
+zz
         SELECT
     NVL(c.nome, 'Sem Cliente') AS cliente,
     v.produto,
@@ -6,8 +6,7 @@
     FROM CLIENTES c
     RIGHT JOIN VENDAS v
     ON c.id_cliente = v.id_cliente;
-
-        SELECT
+      4t5  SELECT
     c.nome,
     c.cidade
 FROM CLIENTES c
